@@ -1,0 +1,49 @@
+html, body {
+    font-family: 'Pixelify Sans';
+    margin: 0%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+body {
+    background-image: url(asset/Pixel_Art_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+img {
+    width: 1em;
+    height: 1em;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+#taskInput {
+    border-right: 0;
+}
+
+.list-group-item {
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.2); /* semi-transparent white */;
+    background: rgba(255, 255, 255, 0.2); /* semi-transparent white */
+    backdrop-filter: blur(10px);          /* blur background behind */
+    -webkit-backdrop-filter: blur(10px);  /* Safari support */
+}
+
+.list-group-item span {
+    font-weight: 700;
+}
+
+.task-text {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
