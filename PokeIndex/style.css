@@ -1,0 +1,19 @@
+body {
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+img {
+    width: 80px;
+    margin: 20px;
+}
+
+.pokemon {
+    display: inline-block;
+    text-align: center;
+}
+
+.pokemon span {
+    display: block;
+}
+
